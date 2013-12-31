@@ -6,6 +6,7 @@ require 'rails/all'
 # you've limited to :test, :development, or :production.
 Bundler.require(:default, Rails.env)
 
+
 module Pinteresting
   class Application < Rails::Application
     # Settings in config/environments/* take precedence over those specified here.
@@ -20,6 +21,7 @@ module Pinteresting
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
     # config.i18n.default_locale = :de
     #REQUIRED BY HEROKU
-    config.assets.intialize_on_precompile = false
+    # config/application.rb
+    config.assets.initialize_on_precompile = false
   end
 end
