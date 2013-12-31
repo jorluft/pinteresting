@@ -23,5 +23,6 @@ module Pinteresting
     #REQUIRED BY HEROKU
     # config/application.rb
     config.assets.initialize_on_precompile = false
+    
   end
 end
