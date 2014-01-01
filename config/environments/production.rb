@@ -80,5 +80,5 @@ Pinteresting::Application.configure do
 
 #not to set this to actual host
 #required for heroku
-  config.action_mailer.default_url_options = { :host => 'dontmissatweet.com}
+  config.action_mailer.default_url_options = { :host => 'dontmissatweet.com'}
 end
